@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-install_requires = ["numpy", "sklearn", "pandas<=1.3.5", "scipy", "scikit-learn"]
+install_requires = ["numpy", "pandas", "scipy", "scikit-learn"]
 
 setup_requires = ["pytest-runner"]
 
@@ -26,13 +26,13 @@ keywords = [
 setup(
     name="rexmex",
     packages=find_packages(),
-    version="0.1.0",
+    version="0.1.3",
     license="Apache License, Version 2.0",
     description="A General Purpose Recommender Metrics Library for Fair Evaluation.",
     author="Benedek Rozemberczki, Sebastian Nilsson, Piotr Grabowski, Charles Tapley Hoyt, Gavin Edwards",
     author_email="bikg@astrazeneca.com",
     url="https://github.com/AstraZeneca/rexmex",
-    download_url="https://github.com/AstraZeneca/rexmex/archive/v_00100.tar.gz",
+    download_url="https://github.com/AstraZeneca/rexmex/archive/v_00103.tar.gz",
     keywords=keywords,
     install_requires=install_requires,
     setup_requires=setup_requires,
@@ -43,6 +43,6 @@ setup(
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Build Tools",
         "License :: OSI Approved :: Apache Software License",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.10",
     ],
 )
